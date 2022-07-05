@@ -12,7 +12,7 @@ h1{
     padding-top: 15%;
     padding-left: 22%;
     padding-right: 22%;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
 }
 .banner-content{
     text-align: center;
@@ -28,28 +28,26 @@ h1{
     padding: 2% 6%;
     border-radius: 10px;
 }
-.donate-amount-section{
-    margin: 10%;
+.donate-centeralized{
+    margin-top: 10%;
     text-align: center;
 }
 .flexible-container{
     display: flex;
-    margin: 5px;
-    padding: 5%;
-    align-items: center;
+    padding: 7%;
 }
 .amount{
     text-align: center;
     margin: 0 auto;
     border: none;
     border-radius: 4px;
-    padding: 10px;
+    padding: 15px;
     background-color: azure;
 }
 #choice-amount-color{
     border: 2px solid orangered;
     border-radius: 4px;
-    padding: 10px;
+    padding: 15px;
     background-color: rgb(237, 196, 196);
     
 }
@@ -58,5 +56,31 @@ h1{
     border-bottom: 2px solid gray;
     margin: 5px;
     padding: 2% 20%;
+}
+.card-item{
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5px;
+}
+#food-card{
+    background-color: rgb(189, 241, 223);
+}
+#shelter-card{
+    background-color: antiquewhite;
+}
+#education-card{
+    background-color: rgb(255, 246, 232);
+}
 
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+footer h3{
+    font-family: 'Splash', cursive;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: orange;
 }
