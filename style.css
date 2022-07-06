@@ -30,11 +30,13 @@ h1{
 }
 .donate-centeralized{
     margin-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
     text-align: center;
 }
 .flexible-container{
     display: flex;
-    padding: 7%;
+    padding: 2% 7%;
 }
 .amount{
     text-align: center;
@@ -70,7 +72,18 @@ h1{
 #education-card{
     background-color: rgb(255, 246, 232);
 }
-
+.contribute-about{
+    padding: 0px 8px;
+}
+.contribute-about img{
+    width: 100%;
+}
+.amount-collection{
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(206, 255, 239);
+    padding: 15px;
+}
 .email-section{
     margin: 7% 30%;
     padding: 50px;
